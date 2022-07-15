@@ -7,3 +7,12 @@ function makeEmojiList(minutes) {
     for (let i = 0; i < minutes; i += interval) {
       emojis += emoji;
     }
+    
+    
+    return emojis;
+  }
+
+const Article = ({title,date="January 1, 1970",preview,minutes})=> {
+    const emojis = makeEmojiList(minutes);
+  return (
+    
