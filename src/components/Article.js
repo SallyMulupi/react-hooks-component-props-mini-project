@@ -15,4 +15,7 @@ function makeEmojiList(minutes) {
 const Article = ({title,date="January 1, 1970",preview,minutes})=> {
     const emojis = makeEmojiList(minutes);
   return (
+    <article>
+
+    <h3>{title}</h3>i
     
