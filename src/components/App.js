@@ -5,7 +5,13 @@ import About from "./About";
 import ArticleList from "./ArticleList";
 import posts from "./ArticleList";
 console.log(posts);
-function App(){}
+function App(){
+  return (
+    <div className="App">
+
+    </div>
+  )
+}
 
 
 export default App;
