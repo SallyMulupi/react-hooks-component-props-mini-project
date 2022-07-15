@@ -19,4 +19,12 @@ const Article = ({title,date="January 1, 1970",preview,minutes})=> {
 
     <h3>{title}</h3>i
     <small>{date}</small>
+    <p>{preview}</p>
+   <small>{emojis}{minutes} min read</small>
+
+   </article>
+  )
+}
+
+export default Article;
     
