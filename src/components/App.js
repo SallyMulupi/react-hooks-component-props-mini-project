@@ -8,6 +8,7 @@ console.log(posts);
 function App(){
   return (
     <div className="App">
+      <Header name={blogData.name}/>
 
     </div>
   )
